@@ -1,0 +1,214 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+*:focus {
+	outline:none;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	overflow-y: hidden;
+}
+
+#container {
+	border-collapse: collapse;
+}
+
+#header_row {
+	background-color: #FFB300;
+}
+
+#header {
+	height: 80px;
+}
+
+.header_item {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 20px;
+	border-radius: 100px;
+    text-decoration: none;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+.header_item:hover {
+	color: #000000;
+	background-color: #FFE54C;
+}
+
+.header_item_normal {
+	color: #000000;
+	background-color: #FFB300;
+}
+
+.header_item_accent {
+	color: #FFFFFF;
+	background-color: #C68400
+}
+
+.icon {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 10px;
+	margin-left: 10px;
+    transition: color 0.15s;
+	color: #000000;
+	background-color: #00000000;
+}
+
+.icon:hover {
+	color: #FFFFFF;
+}
+
+.logo {
+	height: 60px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 10px;
+	margin-left: 40px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+#content_row {
+	display: inline-block;
+	overflow: auto;
+}
+
+#content {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+}
+
+
+
+#content_wrapper {	
+	padding: 50px;
+}
+
+#qrimg {
+	width: 400px;
+	height: 400px;
+}
+
+#login_button {
+	background-color: #9E9D24;
+	padding: 16px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #9E9D24;
+	border-style: solid;
+}
+
+#login_button:hover {
+	background-color: #D2CE56;
+}
+
+#login_credentials_button {
+	background-color: #9E9D24;
+	padding: 16px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #9E9D24;
+	border-style: solid;
+}
+
+#login_credentials_button:hover {
+	background-color: #D2CE56;
+}
+
+#signup_button {
+	background-color: #9E9D24;
+	padding: 16px;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #9E9D24;
+	border-style: solid;
+}
+
+#signup_button:hover {
+	background-color: #D2CE56;
+}
+
+
+
+.note_td {
+	height: 250px;
+	width: 250px;
+}
+
+.note_cell {
+	position: relative;
+	height: 230px;
+	width: 230px;
+	color: #222222;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	white-space: normal;
+	word-break: break-word;
+	transition: box-shadow 0.15s, border-color 0.15s;
+}
+
+.note_cell:hover {
+	border-color: #EEEEEE;
+	box-shadow: 0 2px 8px -2px #888888FF;
+}
+
+#note_textarea {
+	width: 100%;
+	resize: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+.check_box {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-color: #00000000;
+	opacity: 0;
+	transition: opacity 0.15s;
+}
+
+.input {
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #BBBBBB;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 300px;
+}
+
+.text {
+	font-size: 20px;
+}
+
+.selected_text {
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
